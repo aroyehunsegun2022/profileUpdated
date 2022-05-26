@@ -26,9 +26,6 @@ function NavBar() {
           <Modal.Body> 
           <a href="tel:+2348136811613"><span className='othertopics'><img src={phone} alt='phon' id='icon'/>    08136811613</span></a> <br/>
           <a href="mailto: aroyehunsegun@yahoo.com"><span className='othertopics'><img src={email} alt='emai' id='icon'/>    aroyehunsegun@yahoo.com</span> </a>
-
-
-
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
