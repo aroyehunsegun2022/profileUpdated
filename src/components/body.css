@@ -1,138 +1,145 @@
-#body{
-    padding: 20px;
-    margin-top: 0px;
-    border: 1px solid #E0E0E0;
-    
+#body {
+  padding: 20px;
+  margin-top: 0px;
+  border: 1px solid #e0e0e0;
 }
 
-.language{
-    border: 1px solid black;
-    padding: 3px;
-    border-radius: 25px;
-    font-family: 'Avenir Next' ;
-    margin-bottom: 10px;
-    
+.language {
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  font-family: "Avenir Next";
+  margin-bottom: 10px;
 }
 
-
-#secondSkills{
-    margin-top: 40px;
-
+#secondSkills {
+  margin-top: 40px;
 }
 
-#line{
-    height: 1px;
-    background: grey;
-    margin-top: 50px;
-    
+#line {
+  height: 1px;
+  background: grey;
+  margin-top: 50px;
 }
 
-#imageTop{
-    width: 600px;
-    margin-top: 30px;
-    height: 350px;
+#imageTop {
+  width: 690px;
+  margin-top: 30px;
+  height: 350px;
 }
 
-#contents{
-    margin-left: -12px;
-    margin-top: -30px;
-    
+#contents {
+  margin-left: -12px;
+  margin-top: -30px;
 }
 
-#words{
-    text-align: justify;
-    margin-top: 45px;
-    margin-left: 30px;
-    
+#words {
+  text-align: justify;
+  margin-top: 45px;
+  margin-left: 30px;
 }
 
-#topics{
-    font-family: 'Libre Baskerville';
-    
+#topics {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 79px;
+  letter-spacing: -0.04em;
 }
 
-#secondtopic{
-    font-family: 'Avenir Next' ;
-}
-
-#subtopic{
-    font-family: 'Libre Baskerville';
-}
-
-.othertopics{
-    font-family: 'Avenir Next' ;
-    font-size: small;
-}
-
-#number1{
-    border: 1px solid black;
-    height: 30px;
-    width: 30px;
-    
-}
-
-#iconsss{
-    margin-top: 20px;
-    
- }
-
-#number1{
-    border: 1px solid black;
-    margin-left: 60px;
-    margin-top: 40px;
-    transform: rotate(45deg);  
-
-}
-
-#line2{
-    height: 1px;
-    background: black;
-    width: auto;
-    margin-top: -16px;
-    margin-left: 95px;
-}
-
-#header2{
-    margin-left: 55px;
-    margin-top: 50px;
-    font-family: 'Libre Baskerville';
-    text-align: justify;
-
-}
-
-#firstapp{
-    font-size:x-small;
-    margin-left: 55px;
+#secondtopic {
     font-family: 'Avenir Next';
-    margin-left: -5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
     
+    letter-spacing: -0.04em;
+}
+
+#subtopic {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
     
+    letter-spacing: -0.04em;
 }
 
-#sample1{
-    width: 300px;
-    margin-left: 30px;
-    margin-top: 30px;
+.othertopics {
+  font-family: "Avenir Next";
+  font-size: small;
 }
 
-#line3{
-    height: 1px;
-    background: black;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    width: 150px;
-    margin-left: 57px;
+#number1 {
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
 }
 
-#icons{
-    width: 30px;
-    margin-left: 100px;
+#iconsss {
+  margin-top: 20px;
 }
 
-#developments{
-    overflow: scroll;
+#number1 {
+  border: 1px solid black;
+  margin-left: 60px;
+  margin-top: 40px;
+  transform: rotate(45deg);
 }
 
-#resume{
-    width: 50px;
+#line2 {
+  height: 1px;
+  background: black;
+  width: auto;
+  margin-top: -16px;
+  margin-left: 95px;
+}
+
+#header2 {
+  margin-left: 55px;
+  margin-top: 50px;
+  font-family: "Libre Baskerville";
+  text-align: justify;
+}
+
+#firstapp {
+  font-size: x-small;
+  margin-left: 55px;
+  font-family: "Avenir Next";
+  margin-left: -5px;
+}
+
+#sample1 {
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 300px;
+}
+
+#line3 {
+  height: 1px;
+  background: black;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  width: 150px;
+  margin-left: 57px;
+}
+
+#icons {
+  width: 30px;
+  margin-left: 100px;
+}
+
+#developments {
+  overflow: scroll;
+}
+
+#resume {
+  width: 50px;
+  margin-top: 30px;
 }

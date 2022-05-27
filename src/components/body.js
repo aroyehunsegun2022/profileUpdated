@@ -15,7 +15,7 @@ function Body(){
     return(
         <div >
             <Container>
-                <div className='row'>
+                <div className='row' >
                     <div className='col-2' id='body' >
                         <div>
                             <h3 style={{ fontFamily:'Libre Baskerville', marginBottom:'15px'}}>My Skills</h3>
@@ -41,14 +41,15 @@ function Body(){
                     <div className='col-6' id='contents'>
                         <img src={logo2} alt='myimage' id='imageTop'/>
                         <div id='words'>
-                        <h2 id='topics'>Hi there! I am <br/> Aroyehun Oluwasegun</h2>
+                        <h1 id='topics'>Hi there! I am <br/> Aroyehun Segun</h1>
                         <p id='secondtopic'>I am a passionate product designer focused on improving the usability of digital products. 
                             I have an excellent reputation for solving problems, improving customer satisfaction and
                              knowledgeable in creating production-ready designs.  
                         </p>
                         <h3 id='subtopic'>Let's work on your next project</h3>
                         
-                        <a href={Resume} download='Oluwasegun Resume' target='_blank' rel="noreferrer"> <span className='othertopics' > <img src={Resumeimage} alt='myimage4' id='resume'/></span> <br/> </a>
+                        <a href={Resume} download='Oluwasegun Resume' target='_blank' rel="noreferrer"> <span className='othertopics' > <img src={Resumeimage} alt='myimage4' id='resume'/> <br/> Download my Resume</span> <br/> </a>
+                        
                         <div id='iconsss'>
                         <span className='othertopics'> <a href='www.google.com'>  <img src={twitter} alt='myimage2' id='icons'/></a>  </span> | <span className='othertopics'><img src={github} alt='myimage2' id='icons'/></span> | <span className='othertopics'><img src={linkedin} alt='myimage2' id='icons'/></span>
                         </div>
@@ -69,7 +70,7 @@ function Body(){
                         <div class="line-1" id='line3'></div>
                         <span id='firstapp'>Designed EnjoyLife event app for Temple Company.</span>
                         
-                        <img src={sample1} alt='myimage2' id='sample1'/>
+                        <img src={eindustries} alt='myimage2' id='sample1'/>
 
                         <a href='enjoylife.ng'> <span className='othertopics' > www.enjoylife.ng</span> <br/> </a>
 
@@ -89,7 +90,8 @@ function Body(){
                         <div class="line-1" id='line3'></div>
                         <span id='firstapp'> This is the official website of eIndustries.</span>
                         
-                        <img src={eindustries} alt='myimage2' id='sample1'/>
+                        <img src={sample1} alt='myimage2' id='sample1'/>
+
 
                         <a href='www.eindustries.tech'> <span className='othertopics' > www.eindustries.tech</span> <br/> </a>
 
