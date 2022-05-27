@@ -26,9 +26,7 @@ function Body(){
                             <div className='language'><span>JavaScript</span><br/></div>
                             <div className='language'><span>MySql</span><br/></div>
                             <div className='language'><span>HTML</span><br/></div>
-                            <div className='language'><span>CSS</span><br/></div>
-
-                            
+                            <div className='language'><span>CSS</span><br/></div>                            
                         </div>
                         <div class="line-1" id='line'></div>
                         <div id='secondSkills' >
