@@ -42,9 +42,9 @@ function Body(){
                         <img src={logo2} alt='myimage' id='imageTop'/>
                         <div id='words'>
                         <h1 id='topics'>Hi there! I am <br/> Aroyehun Segun</h1>
-                        <p id='secondtopic'>I am a passionate product designer focused on improving the usability of digital products. 
+                        <p id='secondtopic'>I am a passionate product developer focused on improving the usability of digital products. 
                             I have an excellent reputation for solving problems, improving customer satisfaction and
-                             knowledgeable in creating production-ready designs.  
+                             knowledgeable in Market ready Applications.  
                         </p>
                         <h3 id='subtopic'>Let's work on your next project</h3>
                         
