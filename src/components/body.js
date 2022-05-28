@@ -23,14 +23,14 @@ function Body(){
                             <div className='language'><span>Flask</span><br/></div>
                             <div className='language'><span>AWS</span><br/></div>
                             <div className='language'><span>React</span><br/></div>
-                            <div className='language'><span>JavaScript</span><br/></div>
+                            <div className='language'><span>JScript</span><br/></div>
                             <div className='language'><span>MySql</span><br/></div>
                             <div className='language'><span>HTML</span><br/></div>
                             <div className='language'><span>CSS</span><br/></div>                            
                         </div>
                         <div class="line-1" id='line'></div>
                         <div id='secondSkills' >
-                            <h3 style={{ fontFamily:'Libre Baskerville',  marginBottom:'15px'}}>Experience </h3>
+                            <h3 style={{ fontFamily:'Libre Baskerville',  marginBottom:'15px'}} id='expereinece'>Experience </h3>
                             <div className='language'><span>FinTech</span><br/></div>
                             <div className='language'><span>FMCG</span><br/></div>
                             <div className='language'><span>Startups</span><br/></div>
@@ -59,7 +59,7 @@ function Body(){
                         
                     </div>
                 
-                    <div className='col-4'>
+                    <div className='col-4' id='samplejobs'>
                         
                         <div >
                         <div id='number1'>
@@ -109,7 +109,7 @@ function Body(){
                         <div class="line-1"  id='line2'></div>
                         <h4 id='header2'>Developed a FinTech App for eErrand Limited  </h4>
                         <div class="line-1" id='line3'></div>
-                        <span id='firstapp'>The FinTech App has google map geaolocation and wallet system embeded.</span>
+                        <span id='firstapp'>  FinTech App (Goodle Map & Wallet embeded).</span>
                         
                         <img src={eerrand} alt='myimage2' id='sample1'/>
 

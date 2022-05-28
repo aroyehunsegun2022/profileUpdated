@@ -3,3 +3,31 @@
      margin-bottom: 20px;
 
  }
+
+ @media screen and (max-width: 414px) {
+    #navs {
+      width: 200px
+  
+    }
+
+    #navs a {
+      font-size: 15px;
+      margin-left: -2px;
+      padding: -1px;
+    }
+    #navcon{
+        margin-left: 10px;
+        }
+    #navHome{
+        margin-right: 10px;
+        display: none;
+        }
+    #navs a:hover { 
+        background-color: #f1f1f1;
+        color: black;
+        }
+    #body{
+        font-size: small;
+    }
+        
+}

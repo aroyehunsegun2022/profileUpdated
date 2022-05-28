@@ -15,11 +15,11 @@ function NavBar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar bg="light" variant="light" id="navs">
       {/* modal */}
 
       <div>
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} >
           <Modal.Header closeButton>
             <Modal.Title>Contact Me</Modal.Title>
           </Modal.Header>
@@ -42,12 +42,11 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link
               href="#home"
-              style={{ color: "black", textDecoration: "underline" }}
-            >
+              style={{ color: "black", textDecoration: "underline" }} id='navHome'>
               Home
             </Nav.Link>
             {/* <Nav.Link href="portfolio"> <Link to='/portfolio'>Portfolio </Link>  </Nav.Link> */}
-            <Nav.Link href="#pricing" onClick={handleShow} style={{ border: "1px solid black", borderRadius: "20px", color: "black", }} > 
+            <Nav.Link href="#pricing" onClick={handleShow} style={{ border: "1px solid black", borderRadius: "20px", color: "black"}} id='navcon' > 
              Contact Me  </Nav.Link>
           </Nav>
         </div>

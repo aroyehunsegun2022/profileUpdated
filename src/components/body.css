@@ -26,6 +26,7 @@
   width: 690px;
   margin-top: 30px;
   height: 350px;
+  
 }
 
 #contents {
@@ -143,3 +144,114 @@
   width: 50px;
   margin-top: 30px;
 }
+
+
+@media screen and (max-width: 1280px) {
+  #imageTop {
+    width: 600px
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  #imageTop {
+    width: 400px
+
+  }
+  #sample1{ 
+    width: 200px;
+    height: 150px;
+    margin-left: 40px;
+  }
+  
+  #firstapp{
+    font-size: x-small;
+    margin-left: 40px;
+  }
+  #header2{
+    font-size: small
+  }
+  #topics{
+    font-size: 40px;
+  }
+  #secondtopic{
+    font-size: 18px;
+  }
+  #expereinece{
+    margin-left: -16px;
+  }
+  #iconsss{
+    margin-left: -110px;
+
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+ #body{
+   width: 100px;
+ }
+#contents{
+  width: 150px;
+
+}
+#imageTop{
+  width: 270px;
+}
+#iconsss{
+  width: 30px;}
+
+#samplejobs{
+  margin-left: 58px;
+}
+#sample1{
+  width: 130px;
+  height: 90px;
+  margin-left: 62px;
+
+}
+
+#header2{
+  margin-left: 70px;
+}
+
+#firstapp{
+  display: none;
+}
+.othertopics{
+  margin-left: 70px;
+}
+#number1{
+  margin-left: 70px;
+}
+#line2{
+  display: none;
+}
+
+#secondtopic{
+  text-align: justify;
+  font-size: small;
+}
+#topics{
+  font-size: 15px;
+  text-align: justify;
+  
+}
+#expereinece{
+  font-size: large
+}
+
+#secondtopic{
+  font-size: small;
+  width: 200px;
+  margin-top: -20px;
+}
+
+#subtopic{
+  font-size: small;
+  margin-left: -20px;
+}
+
+
+}
+  
